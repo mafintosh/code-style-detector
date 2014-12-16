@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>code style detector</title>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+    }
+
+    #box {
+      padding: 50px;
+      padding-top: 20px;
+      width: 500px;
+      margin: auto;
+    }
+
+    textarea {
+      width: 500px;
+      height: 500px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+      font-family: monospace;
+    }
+
+    input {
+      padding: 5px;
+      width: 340px;
+      line-height: 20px;
+      margin: 0;
+      outline: none;
+    }
+
+    button {
+      padding: 5px;
+      margin: 0;
+      margin-left: 10px;
+      width: 60px;
+      line-height: 24px;
+    }
+
+    #header {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="box">
+    <h1>code style detector</h1>
+    <div id="header">
+      <input id="url" placeholder="https://github.com/user/repo"><button id="train">TRAIN</button><button id="clear">RESET</button>
+      <pre style="font-size: 10px" id="progress">   </pre>
+    </div>
+    <h2>this code was written by <span id="user">???</span></h2>
+    <textarea style="margin-top: 20px;" placeholder="Enter code sample here..."></textarea>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+</html>
