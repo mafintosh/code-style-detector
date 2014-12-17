@@ -5,7 +5,7 @@ To train it pass some github repo links in the url box and click `TRAIN`.
 
 ## Try it out
 
-https://mafintosh.github.io/code-style-detector
+http://mafintosh.github.io/code-style-detector
 
 ## License
 
